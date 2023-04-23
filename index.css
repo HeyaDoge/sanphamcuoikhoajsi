@@ -71,8 +71,8 @@ a {
 }
 
 .nav {
-    display: flex;
-    
+    display: block;
+    background: #ddd;
 }
 
 li{
