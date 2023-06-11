@@ -57,7 +57,7 @@ form.example button {
   border-left: none;
   cursor: pointer;
   border-radius: 5px;
-  
+
 }
 
 form.example button:hover {
@@ -74,7 +74,6 @@ form.example::after {
 form.example {
   padding-top: 60px;
   width: 700px
-
 }
 
 .searchbar {
@@ -100,6 +99,7 @@ form.example {
   justify-content: center;
   padding-left: 350px;
 }
+
 .card {
   width: 200px;
   height: 200px;
@@ -114,7 +114,7 @@ form.example {
 }
 
 .card:hover {
-  border: rgb(111, 0, 255) solid transparent 3px; 
+  border: rgb(111, 0, 255) solid transparent 3px;
   background-color: whitesmoke;
 }
 
@@ -124,8 +124,8 @@ form.example {
 }
 
 .title1 {
-color: rgb(111, 0, 255);
-padding-left: 450px;
+  color: rgb(111, 0, 255);
+  padding-left: 450px;
 }
 
 .cards-2 {
@@ -145,8 +145,12 @@ padding-left: 450px;
 
 .card2 img {
   height: 250px;
+  max-width: 200px;
+  width: 200px;
 }
 
 
-
-
+.card2:hover {
+  border: rgb(111, 0, 255) solid transparent 3px;
+  background-color: whitesmoke;
+}
