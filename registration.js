@@ -1,6 +1,6 @@
-import app from "." 
+import app from "./index.js" 
 import Login from "./login.js";
-import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.21.0/firebase-auth.js";
+import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-auth.js";
 
 class Register {
   $containerDiv
