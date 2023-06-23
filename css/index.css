@@ -52,7 +52,7 @@ form.example {
 }
 
 .searchbar {
-  background-image: url('dog.jpg');
+  background-image: url('../image/dog.jpg');
   color: azure;
   height: 530px;
   width: 100%;

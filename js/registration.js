@@ -99,7 +99,7 @@ class Register {
         // Signed in 
         const user = userCredential.user;
         console.log(user);
-        // ...
+        this.gotoSignin()
       })
       .catch((error) => {
         const errorCode = error.code;

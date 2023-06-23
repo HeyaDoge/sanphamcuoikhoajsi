@@ -74,7 +74,7 @@ class Login {
         // Signed in 
         const user = userCredential.user;
         document.getElementById("app").innerHTML += `<div>succeed</div>`;
-        // ...
+        location.href = "../index.html"
       })
       .catch((error) => {
         const errorCode = error.code;
